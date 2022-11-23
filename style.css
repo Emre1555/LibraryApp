@@ -1,26 +1,3 @@
-    .popup {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0,0,0,0.5);
-        justify-content: center;
-        align-items: center;
-      }
-
-      .newBook {
-        height: 2rem;
-        width: 7rem;
-        margin-bottom: 1.25rem;
-        background-color: #c48ff0;
-        border: 1px solid #201E20;
-        border-radius: 0.5rem;
-      }
-      
-      .newBook:hover {
-        background-color: #db9b57;
-      }
+    .book{
+      padding:1%
+    }

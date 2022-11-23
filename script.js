@@ -8,17 +8,6 @@ function Book(title, author, pages, read) {
 }
 
 
-document.querySelector(".newBook").addEventListener("click", function() {
-    const popup = document.querySelector(".popup")
-    if (popup.style.display === "none") {
-        popup.style.display = "block";
-    } else {
-        popup.style.display = "none";
-      }
-    }
-);
-
-
 function addBookToLibrary() {
     const submitButton = document.querySelector('.submit');
     
